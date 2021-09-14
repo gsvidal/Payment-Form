@@ -1,0 +1,15 @@
+{
+  "name": "payment-form",
+  "version": "1.0.0",
+  "description": "payment form with semantic html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "semantic-html",
+    "form"
+  ],
+  "author": "Gonzalo Vidal",
+  "license": "ISC"
+}
