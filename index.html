@@ -43,14 +43,15 @@
             <span>Name: </span>
             <strong> <abbr title="required">*</abbr></strong>
           </label>
-          <input type="text" id="name" name="username">
+          <input class="input-reply" type="text" id="name" name="username">
+          <div class="reply"></div>
         </p>
         <p>
           <label for="mail">
             <span>E-mail: </span>
             <strong><abbr title="required">*</abbr></strong>
           </label>
-          <input type="email" id="mail" name="usermail">
+          <input type="email" id="mail" name="usermail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
         </p>
         <p>
           <label for="pwd">
@@ -96,5 +97,6 @@
         </p>
     </section>
     </form>
+    <script src="./script.js"></script>
   </body>
 </html>

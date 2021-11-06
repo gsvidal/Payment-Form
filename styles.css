@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(45deg, red,orange,yellow,green,blue,indigo,violet);
-  /* background-image: linear-gradient(to right, rgba(171, 2, 255, 0.44), rgb(255, 6, 6)); */
   font-family: 'Overpass', sans-serif;
+  height: 100vh;
 }
 
 h1 {
@@ -82,7 +82,6 @@ label em {
   border-radius: 5px;
   border: 1px solid red;
   background-color: beige;
-
 }
 
 #card option {
